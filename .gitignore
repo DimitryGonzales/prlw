@@ -98,12 +98,6 @@
 !.config/zed/
 !.config/zed/settings.json
 
-## Oh My Zsh! ##
-!.oh-my-zsh/
-
-!.oh-my-zsh/themes/
-!.oh-my-zsh/themes/agnoster.zsh-theme
-
 ## Github ##
 !.github/
 

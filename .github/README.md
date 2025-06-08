@@ -1,5 +1,7 @@
 # Dotfiles
 
+**The following instructions assume that the user is using an Arch Linux system.**
+
 ---
 
 # Instructions
@@ -35,8 +37,6 @@
 - [Vesktop](https://github.com/Vencord/Vesktop)
 - [Waybar](https://github.com/Alexays/Waybar)
 - [zsh](https://github.com/zsh-users/zsh)
-
-## For Arch Linux Users
 
 ### Install all packages from both repositories:
 
