@@ -51,20 +51,30 @@ sudo pacman -S --needed chafa cliphist discord ttf-font-awesome otf-font-awesome
 > ℹ️ **You can use either yay or paru depending on which AUR helper you have installed.**
 
 ```bash
-yay -S --needed catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my-zsh-git rofi-power-menu spicetify-cli spicetify-marketplace-bin vencord-hook vesktop
+yay -S --needed catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my-zsh-git rofi-power-menu spicetify-cli spicetify-marketplace-bin vencord-hook vesktop-bin
 ```
 
 _or_
 
 ```bash
-paru -S --needed catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my-zsh-git rofi-power-menu spicetify-cli spicetify-marketplace-bin vencord-hook vesktop
+paru -S --needed catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my-zsh-git rofi-power-menu spicetify-cli spicetify-marketplace-bin vencord-hook vesktop-bin
 ```
 
 ---
 
 ## After Installing Dependencies
 
-> 📌 **Copy everything inside `files` to your `HOME` folder or `git clone` it:**
+> 📌 **Copy everything inside this repository to your `home` folder or `git clone` it:**
+
+1. Download this repo
+
+2. Copy the files to your `HOME` folder:
+
+```bash
+cp path-to-files ~/
+```
+
+_or_
 
 ```bash
 cd ~
