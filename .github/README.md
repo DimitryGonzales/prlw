@@ -1,10 +1,10 @@
-# Dotfiles
+# 🎨 Dotfiles
 
 > ℹ️ **The following instructions assume that the user is using an Arch Linux system.**
 
 ---
 
-# Instructions
+# 🛠️ Instructions
 
 ## Required Dependencies (for full functionality)
 
@@ -68,7 +68,7 @@ paru -S --needed catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my
 
 1. Download this repo.
 
-2. Copy the files to your `HOME` folder:
+2. Copy the files to your `home` folder:
 
 ```bash
 cp path-to-files ~/
@@ -110,11 +110,11 @@ hyprctl monitors
 
 ---
 
-## Examples
+# 🖼️ Examples
 
 > ⚠️ *These images do not showcase all features/configurations.*
 
-### Catppuccin Mocha Lavender
+## Catppuccin Mocha Lavender
 
 <table>
     <tr>
@@ -127,7 +127,7 @@ hyprctl monitors
     </tr>
 </table>
 
-### Gruvbox Dark
+## Gruvbox Dark
 
 <table>
     <tr>
