@@ -48,7 +48,7 @@ sudo pacman -S --needed chafa cliphist discord ttf-font-awesome otf-font-awesome
 
 #### AUR (using `yay` or `paru`):
 
-> ℹ️ You can use either yay or paru depending on which AUR helper you have installed.
+> ℹ️ **You can use either yay or paru depending on which AUR helper you have installed.**
 
 ```bash
 yay -S --needed catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my-zsh-git rofi-power-menu spicetify-cli spicetify-marketplace-bin vencord-hook vesktop
@@ -64,9 +64,14 @@ paru -S --needed catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my
 
 ## After Installing Dependencies
 
-> 📌 **Copy everything inside `files` to your `HOME` folder.**
+> 📌 **Copy everything inside `files` to your `HOME` folder or `git clone` it:**
 
-️> 📌 **Apply/Change theme with `theme.sh` script.**
+```bash
+cd ~
+git clone https://github.com/DimitryGonzales/dotfiles.git
+```
+
+> 📌 **Apply/Change the themes with `theme.sh` script.**
 
 ### Discord with Vencord
 
