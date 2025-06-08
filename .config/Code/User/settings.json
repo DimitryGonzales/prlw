@@ -1,0 +1,73 @@
+{
+    /// Options
+
+    // Auto Save 
+    "files.autoSave": "onFocusChange",
+
+    // Compact Folders
+    "explorer.compactFolders": false,
+    
+    // Copilot
+    "github.copilot.enable": {
+        "*": false
+    },
+
+    // Empty Hint
+    "workbench.editor.empty.hint": "hidden",
+
+    // Git
+    "git.confirmSync": false,
+
+    // Insert Final Line
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "notebook.insertFinalNewline": true,
+
+    // Linked Editing
+    "editor.linkedEditing": true,
+    
+    // Minimap
+    "editor.minimap.showSlider": "always",
+
+    // Sticky Scroll
+    "editor.stickyScroll.enabled": false,
+
+    // Trust
+    "security.workspace.trust.banner": "always",
+
+    // Work Wrap
+    "editor.wordWrap": "on",
+
+
+    /// Style
+    
+    // Catppucin
+    "catppuccin.accentColor": "lavender",
+
+    // Font
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 16,
+
+    // Icons
+    "workbench.iconTheme": "material-icon-theme",
+
+    // Line height
+    "editor.lineHeight": 1.6,
+
+    // Theme
+    "workbench.colorTheme": "Catppuccin Mocha",
+
+
+    /// Extentions
+
+    // Code Runner
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+
+    // Discord
+    "discord.removeLowerDetails": true,
+
+    // Live Server
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+}
