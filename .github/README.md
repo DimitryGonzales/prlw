@@ -1,6 +1,6 @@
 # Dotfiles
 
-**The following instructions assume that the user is using an Arch Linux system.**
+> ℹ️ **The following instructions assume that the user is using an Arch Linux system.**
 
 ---
 
@@ -48,7 +48,7 @@ sudo pacman -S --needed chafa cliphist discord ttf-font-awesome otf-font-awesome
 
 #### AUR (using `yay` or `paru`):
 
-> 📌 You can use either yay or paru depending on which AUR helper you have installed.
+> ℹ️ You can use either yay or paru depending on which AUR helper you have installed.
 
 ```bash
 yay -S --needed catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my-zsh-git rofi-power-menu spicetify-cli spicetify-marketplace-bin vencord-hook vesktop
@@ -64,9 +64,9 @@ paru -S --needed catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my
 
 ## After Installing Dependencies
 
-📌 **Copy everything inside `files` to your `HOME` folder.**
+> 📌 **Copy everything inside `files` to your `HOME` folder.**
 
-️ℹ️ **Apply/Change theme with `theme.sh` script.**
+️> 📌 **Apply/Change theme with `theme.sh` script.**
 
 ### Discord with Vencord
 
