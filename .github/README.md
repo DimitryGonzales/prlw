@@ -66,7 +66,7 @@ paru -S --needed catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my
 
 > 📌 **Copy everything inside this repository to your `home` folder or `git clone` it:**
 
-1. Download this repo
+1. Download this repo.
 
 2. Copy the files to your `HOME` folder:
 
@@ -75,6 +75,8 @@ cp path-to-files ~/
 ```
 
 _or_
+
+1. Git clone it:
 
 ```bash
 cd ~
