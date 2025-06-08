@@ -164,6 +164,17 @@
 !sources/hyprland/gruvbox-dark/hyprpaper.conf
 !sources/hyprland/gruvbox-dark/style.conf
 
+# Kitty
+!sources/kitty/
+
+!sources/kitty/catppuccin-mocha-lavender/
+!sources/kitty/catppuccin-mocha-lavender/kitty.conf
+!sources/kitty/catppuccin-mocha-lavender/palette.conf
+
+!sources/kitty/gruvbox-dark/
+!sources/kitty/gruvbox-dark/kitty.conf
+!sources/kitty/gruvbox-dark/palette.conf
+
 # Neofetch
 !sources/neofetch/
 
