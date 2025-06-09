@@ -133,17 +133,21 @@
 # Foot
 !sources/foot/
 
+!sources/foot/apple/
+!sources/foot/apple/foot.ini
+
 !sources/foot/catppuccin-mocha-lavender/
 !sources/foot/catppuccin-mocha-lavender/foot.ini
 
 !sources/foot/gruvbox-dark/
 !sources/foot/gruvbox-dark/foot.ini
 
-!sources/foot/iOS/
-!sources/foot/iOS/foot.ini
 
 # GTK
 !sources/gtk/
+
+!sources/gtk/apple/
+!sources/gtk/apple/settings.ini
 
 !sources/gtk/catppuccin-mocha-lavender/
 !sources/gtk/catppuccin-mocha-lavender/settings.ini

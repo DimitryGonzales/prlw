@@ -105,10 +105,16 @@ restart_app() {
 set_gtk_theme() {
     local THEME="$1"
 
-    if gsettings set org.gnome.desktop.interface gtk-theme "$THEME"; then
-        printf "✅ Set GTK theme to: %s\n" "$THEME"
+    if gsettings set org.gnome.desktop.interface icon-theme "$GTK_ICON_THEME"; then
+        printf "✅ Set GTK icon theme to: %s\n" "$GTK_ICON_THEME"
     else
-        printf "❌ Failed to set GTK theme to: %s\n" "$THEME"
+        printf "❌ Failed to set GTK icon theme to: %s\n" "$GTK_ICON_THEME"
+    fi
+    
+    if gsettings set org.gnome.desktop.interface gtk-theme "$GTK_THEME"; then
+        printf "✅ Set GTK theme to: %s\n" "$GTK_THEME"
+    else
+        printf "❌ Failed to set GTK theme to: %s\n" "$GTK_THEME"
     fi
 }
 
@@ -163,15 +169,34 @@ fi
 # Ask user what theme to apply
 while true; do
     printf "Choose a theme:\n\n"
-    printf "1 - Catppuccin Mocha\n"
-    printf "2 - Gruvbox Dark\n\n"
+    printf "1 - Apple\n"
+    printf "2 - Catppuccin Mocha\n"
+    printf "3 - Gruvbox Dark\n"
+    echo
 
     read -n 1 -r choice
     [ -z "$choice" ] && clear && continue
 
     case "$choice" in
         1|one)
+            # GTK icon theme
+            GTK_ICON_THEME="WhiteSur"
+
             # GTK theme name
+            GTK_THEME="WhiteSur-Dark"
+
+            # Theme name
+            THEME="apple"
+
+            # VSCode theme name
+            VSCODE_THEME="MacOS Modern Dark - Xcode Default"
+            break
+            ;;
+        2|two)
+            # GTK icon theme
+            GTK_ICON_THEME="Adwaita"
+
+            # GTK theme
             GTK_THEME="catppuccin-mocha-lavender-standard+default"
 
             # Theme name
@@ -181,7 +206,10 @@ while true; do
             VSCODE_THEME="Catppuccin Mocha"
             break
             ;;
-        2|two)
+        3|three)
+            # GTK icon theme
+            GTK_ICON_THEME="Adwaita"
+
             # GTK theme name
             GTK_THEME="Gruvbox-Yellow-Dark"
 

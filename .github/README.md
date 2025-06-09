@@ -15,6 +15,8 @@
 - [Foot](https://codeberg.org/dnkl/foot)
 - [GTK Catppuccin Theme](https://github.com/catppuccin/gtk)
 - [GTK Gruvbox Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme)
+- [GTK Whitesur Theme](https://github.com/vinceliuice/WhiteSur-gtk-theme)
+- [GTK Whitesur Icon Theme](https://github.com/vinceliuice/WhiteSur-icon-theme)
 - [Hyprland](https://github.com/hyprwm/Hyprland)
 - [Hyprlock](https://github.com/hyprwm/hyprlock)
 - [Hyprpicker](https://github.com/hyprwm/hyprpicker)
@@ -51,13 +53,13 @@ sudo pacman -S --needed chafa cliphist discord ttf-font-awesome otf-font-awesome
 > ℹ️ **You can use either yay or paru depending on which AUR helper you have installed.**
 
 ```bash
-yay -S --needed catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my-zsh-git rofi-power-menu spicetify-cli spicetify-marketplace-bin vencord-hook vesktop-bin
+yay -S --needed catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my-zsh-git rofi-power-menu spicetify-cli spicetify-marketplace-bin vencord-hook vesktop-bin whitesur-gtk-theme whitesur-icon-theme
 ```
 
 _or_
 
 ```bash
-paru -S --needed catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my-zsh-git rofi-power-menu spicetify-cli spicetify-marketplace-bin vencord-hook vesktop-bin
+paru -S --needed catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my-zsh-git rofi-power-menu spicetify-cli spicetify-marketplace-bin vencord-hook vesktop-bin whitesur-gtk-theme whitesur-icon-theme
 ```
 
 ---
@@ -99,6 +101,7 @@ Install the corresponding colors extension for your theme:
 
 - [Catppuccin](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)
 - [Gruvbox](https://marketplace.visualstudio.com/items?itemName=jdinhlife.gruvbox)
+- [MacOS Modern Theme](https://marketplace.visualstudio.com/items?itemName=davidbwaters.macos-modern-theme)
 
 ### Waybar
 
