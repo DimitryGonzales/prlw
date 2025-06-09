@@ -211,16 +211,10 @@
 
 !sources/vencord/catppuccin-mocha-lavender/
 
-!sources/vencord/catppuccin-mocha-lavender/settings/
-!sources/vencord/catppuccin-mocha-lavender/settings/settings.json
-
 !sources/vencord/catppuccin-mocha-lavender/themes/
 !sources/vencord/catppuccin-mocha-lavender/themes/theme.css
 
 !sources/vencord/gruvbox-dark/
-
-!sources/vencord/gruvbox-dark/settings/
-!sources/vencord/gruvbox-dark/settings/settings.json
 
 !sources/vencord/gruvbox-dark/themes/
 !sources/vencord/gruvbox-dark/themes/theme.css
@@ -230,16 +224,10 @@
 
 !sources/vesktop/catppuccin-mocha-lavender/
 
-!sources/vesktop/catppuccin-mocha-lavender/settings/
-!sources/vesktop/catppuccin-mocha-lavender/settings/settings.json
-
 !sources/vesktop/catppuccin-mocha-lavender/themes/
 !sources/vesktop/catppuccin-mocha-lavender/themes/theme.css
 
 !sources/vesktop/gruvbox-dark/
-
-!sources/vesktop/gruvbox-dark/settings/
-!sources/vesktop/gruvbox-dark/settings/settings.json
 
 !sources/vesktop/gruvbox-dark/themes/
 !sources/vesktop/gruvbox-dark/themes/theme.css
