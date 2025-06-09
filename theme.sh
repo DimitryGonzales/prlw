@@ -229,9 +229,7 @@ ROFI_CONFIG="$SOURCES_ROFI_DIR/$THEME/config.rasi"
 ROFI_THEME="$SOURCES_ROFI_DIR/$THEME/theme.rasi"
 SWAYNC_STYLE="$SOURCES_SWAYNC_DIR/$THEME/style.css"
 VENCORD_THEME="$SOURCES_VENCORD_DIR/$THEME/themes/theme.css"
-VENCORD_SETTINGS="$SOURCES_VENCORD_DIR/$THEME/settings/settings.json"
 VESKTOP_THEME="$SOURCES_VESKTOP_DIR/$THEME/themes/theme.css"
-VESKTOP_SETTINGS="$SOURCES_VESKTOP_DIR/$THEME/settings/settings.json"
 VSCODE_SETTINGS="$HOME/.config/Code/User/settings.json"
 WALLPAPER="$SOURCES_WALLPAPER_DIR/$THEME.png"
 WAYBAR_CONFIG="$SOURCES_WAYBAR_DIR/$THEME/config.jsonc"
@@ -321,17 +319,13 @@ echo
 
 # Vencord
 printf "• Vencord\n"
-check_directory "$VENCORD_DIR/settings"
 check_directory "$VENCORD_DIR/themes"
-copy "$VESKTOP_SETTINGS" "$VENCORD_DIR/settings"
 copy "$VESKTOP_THEME" "$VENCORD_DIR/themes"
 echo
 
 # Vesktop
 printf "• Vesktop\n"
-check_directory "$VESKTOP_DIR/settings"
 check_directory "$VESKTOP_DIR/themes"
-copy "$VESKTOP_SETTINGS" "$VESKTOP_DIR/settings"
 copy "$VESKTOP_THEME" "$VESKTOP_DIR/themes"
 echo
 
