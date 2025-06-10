@@ -1,94 +1,63 @@
-/*********/
-/*Palette*/
-/*********/
-
-/* Catppuccin Mocha */
+/* Palette: Apple */
 @import url("palette.css");
 
-@define-color accent @lavender;
-
-/******************/
-/*General settings*/
-/******************/
-
+/* Universal settings */
 * {
     border: none;
     box-shadow: none;
     margin: 0;
     padding: 0;
 
-    border-radius: 2px;
+    border-radius: 0;
     
-    font-size: 15px;
+    font-size: 14px;
     font-family: "SF Pro Text", "Font Awesome 6 Free";
 
-    transition: all 0.05s linear;
+    transition: all 0;
 }
 
-/*****/
-/*Bar*/
-/*****/
-
+/* Bar */
 window#waybar {
-    background-color: @base;
-    border-bottom: 0.05px solid @accent;
-    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
-/*********/
-/*Tooltip*/
-/*********/
+window#waybar > box {
+    padding: 8px 15px;
+}
 
+/* Tooltips */
 tooltip {
-    background-color: @base;
-    border: 2px solid @accent;
+    background-color: @gray5;
 }
 
 tooltip label {
     color: @text;
 }
 
-/********************************/
-/* Modules (alphabetical order) */
-/********************************/
+/* Modules */
+#custom-power:hover, 
+#workspaces button:hover {
+    background-color: @gray4;
+}
 
-/* Same setting modules */
-#clock, #custom-media, #custom-notification, #disk, #language, #memory, #network, #pulseaudio, #tray {
-    background-color: transparent;
+#custom-power, 
+#pulseaudio.output, 
+#pulseaudio.input, 
+#network, 
+#clock {
     color: @text;
-
-    padding: 0 15px;
 }
 
-/* Same hover setting modules */
-#clock:hover, #custom-media:hover, #custom-notification:hover, #disk:hover, #language:hover, #language:hover, #memory:hover, #network:hover, #pulseaudio:hover, #tray:hover {
-    background-color: @surface0;
-    color: @accent;
-}
-
-/******************/
-/* Extra settings */
-/******************/
-
-/* Tray */
-#tray menu {
-    background-color: @base;
-    border: 2px solid @accent;
+#custom-power, 
+#workspaces button,
+#custom-applauncher,
+#network {
+    min-width: calc(45px - (8px * 2));
 }
 
 /* Workspaces */
-#workspaces {
-    background-color: transparent;
-}
-
 #workspaces button {
-    min-width: 35px;
-
-    color: @overlay0;
-}
-
-#workspaces button:hover {
-    background-color: @surface0;
+    color: @gray
 }
 
 #workspaces button.visible {
@@ -96,5 +65,30 @@ tooltip label {
 }
 
 #workspaces button.active {
-    color: @accent;
+    color: @blue;
+}
+
+/* Audio */
+#pulseaudio.output {
+    background-color: @green;
+    border-radius: 5px;
+
+    min-width: 75px;
+}
+
+#pulseaudio.input {
+    background-color: @orange;
+    border-radius: 5px;
+
+    min-width: 75px;
+}
+
+/* Network */
+#network {
+    font-size: 17.5px;
+}
+
+/* Clock */
+#clock {
+    min-width: 60px;
 }

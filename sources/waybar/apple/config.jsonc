@@ -1,27 +1,28 @@
 {
-    "height": 40,
-    "spacing": 5,
+    "height": 45,
+    "spacing": 15,
 
     "modules-left": [
-        "custom/power"
+        "custom/power",
+        "hyprland/workspaces"
     ],
 
     "modules-center": [
-        "hyprland/workspaces"
+
     ],
 
     "modules-right": [
         "pulseaudio#output",
         "pulseaudio#input",
-        "network",
         "custom/applauncher",
+        "network",
         "clock"
     ],
 
     "custom/power": {
         "format" :  "⏻",
         "on-click": "rofi -show menu -modi 'menu:rofi-power-menu --choices=shutdown/reboot'",
-        "min-length": 23
+        "tooltip": false
     },
 
     "hyprland/workspaces": {
@@ -45,21 +46,27 @@
 
     "pulseaudio#output": {
         "format":       " {volume}%",
-        "format-muted": "",
+        "format-muted": " ",
         "on-click":     "pavucontrol"
     },
 
     "pulseaudio#input": {
         "format-source":       " {volume}%",
-        "format-source-muted": "<<",
+        "format-source-muted": "",
         "format":              "{format_source}",
         "on-click":            "pavucontrol"
+    },
+
+    "custom/applauncher": {
+        "format": "",
+        "on-click": "pgrep rofi > /dev/null 2>&1 && killall rofi || rofi -show drun",
+        "tooltip": false
     },
 
     "network": {
         "interval": 1,
         "format-wifi":                 "",
-        "format-ethernet":             "",
+        "format-ethernet":             "󰈁",
         "format-disconnected":         "Disconnected 󱘖",
         "tooltip-format-wifi":         "Wifi:\n\n {essid} |  {signalStrength}%\n󰇚 {bandwidthDownBytes} | 󰕒 {bandwidthUpBytes}",
         "tooltip-format-ethernet":     "Ethernet:\n\n󰇚 {bandwidthDownBytes} | 󰕒 {bandwidthUpBytes}",

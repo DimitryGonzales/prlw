@@ -10,3 +10,12 @@
 @define-color red #ff453a;
 @define-color teal #40c8e0;
 @define-color yellow #ffd60a;
+
+@define-color gray #8e8e93;
+@define-color gray2 #636366;
+@define-color gray3 #48484a;
+@define-color gray4 #3a3a3c;
+@define-color gray5 #2c2c2e;
+@define-color gray6 #1c1c1e;
+
+@define-color text #ffffff;

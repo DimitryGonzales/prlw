@@ -2,7 +2,7 @@
 /*Palette*/
 /*********/
 
-/* Catppuccin Mocha */
+/* Gruvbox-Dark */
 @import url("palette.css");
 
 @define-color accent @yellow;
