@@ -124,6 +124,9 @@
 # Bash
 !sources/bash/
 
+!sources/bash/apple/
+!sources/bash/apple/.bashrc
+
 !sources/bash/catppuccin-mocha-lavender/
 !sources/bash/catppuccin-mocha-lavender/.bashrc
 
@@ -158,6 +161,11 @@
 # Hyprland
 !sources/hyprland/
 
+!sources/hyprland/apple/
+!sources/hyprland/apple/hyprlock.conf
+!sources/hyprland/apple/hyprpaper.conf
+!sources/hyprland/apple/style.conf
+
 !sources/hyprland/catppuccin-mocha-lavender/
 !sources/hyprland/catppuccin-mocha-lavender/hyprlock.conf
 !sources/hyprland/catppuccin-mocha-lavender/hyprpaper.conf
@@ -171,6 +179,10 @@
 # Kitty
 !sources/kitty/
 
+!sources/kitty/apple/
+!sources/kitty/apple/kitty.conf
+!sources/kitty/apple/palette.conf
+
 !sources/kitty/catppuccin-mocha-lavender/
 !sources/kitty/catppuccin-mocha-lavender/kitty.conf
 !sources/kitty/catppuccin-mocha-lavender/palette.conf
@@ -182,16 +194,24 @@
 # Neofetch
 !sources/neofetch/
 
+!sources/neofetch/apple/
+!sources/neofetch/apple/neofetch.png
+!sources/neofetch/apple/config.conf
+
 !sources/neofetch/catppuccin-mocha-lavender/
-!sources/neofetch/catppuccin-mocha-lavender/catppuccin-mocha-lavender.png
+!sources/neofetch/catppuccin-mocha-lavender/neofetch.png
 !sources/neofetch/catppuccin-mocha-lavender/config.conf
 
 !sources/neofetch/gruvbox-dark/
-!sources/neofetch/gruvbox-dark/gruvbox-dark.png
+!sources/neofetch/gruvbox-dark/neofetch.png
 !sources/neofetch/gruvbox-dark/config.conf
 
 # Rofi
 !sources/rofi/
+
+!sources/rofi/apple/
+!sources/rofi/apple/config.rasi
+!sources/rofi/apple/theme.rasi
 
 !sources/rofi/catppuccin-mocha-lavender/
 !sources/rofi/catppuccin-mocha-lavender/config.rasi
@@ -204,6 +224,9 @@
 # SwayNC
 !sources/swaync/
 
+!sources/swaync/apple/
+!sources/swaync/apple/style.css
+
 !sources/swaync/catppuccin-mocha-lavender/
 !sources/swaync/catppuccin-mocha-lavender/style.css
 
@@ -213,36 +236,46 @@
 # Vencord
 !sources/vencord/
 
-!sources/vencord/catppuccin-mocha-lavender/
+!sources/vencord/apple/
+!sources/vencord/apple/themes/
+!sources/vencord/apple/themes/theme.css
 
+!sources/vencord/catppuccin-mocha-lavender/
 !sources/vencord/catppuccin-mocha-lavender/themes/
 !sources/vencord/catppuccin-mocha-lavender/themes/theme.css
 
 !sources/vencord/gruvbox-dark/
-
 !sources/vencord/gruvbox-dark/themes/
 !sources/vencord/gruvbox-dark/themes/theme.css
 
 # Vesktop
 !sources/vesktop/
 
-!sources/vesktop/catppuccin-mocha-lavender/
+!sources/vesktop/apple/
+!sources/vesktop/apple/themes/
+!sources/vesktop/apple/themes/theme.css
 
+!sources/vesktop/catppuccin-mocha-lavender/
 !sources/vesktop/catppuccin-mocha-lavender/themes/
 !sources/vesktop/catppuccin-mocha-lavender/themes/theme.css
 
 !sources/vesktop/gruvbox-dark/
-
 !sources/vesktop/gruvbox-dark/themes/
 !sources/vesktop/gruvbox-dark/themes/theme.css
 
 # Wallpaper
 !sources/wallpaper/
+!sources/wallpaper/apple.png
 !sources/wallpaper/catppuccin-mocha-lavender.png
 !sources/wallpaper/gruvbox-dark.png
 
 # Waybar
 !sources/waybar/
+
+!sources/waybar/apple/
+!sources/waybar/apple/config.jsonc
+!sources/waybar/apple/palette.css
+!sources/waybar/apple/style.css
 
 !sources/waybar/catppuccin-mocha-lavender/
 !sources/waybar/catppuccin-mocha-lavender/config.jsonc
@@ -256,6 +289,9 @@
 
 # ZSH
 !sources/zsh/
+
+!sources/zsh/apple/
+!sources/zsh/apple/.zshrc
 
 !sources/zsh/catppuccin-mocha-lavender/
 !sources/zsh/catppuccin-mocha-lavender/.zshrc

@@ -1,0 +1,76 @@
+{
+    "height": 40,
+    "spacing": 5,
+
+    "modules-left": [
+        "custom/power"
+    ],
+
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+
+    "modules-right": [
+        "pulseaudio#output",
+        "pulseaudio#input",
+        "network",
+        "custom/applauncher",
+        "clock"
+    ],
+
+    "custom/power": {
+        "format" :  "⏻",
+        "on-click": "rofi -show menu -modi 'menu:rofi-power-menu --choices=shutdown/reboot'",
+        "min-length": 23
+    },
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "on-click": "activate",
+        "all-outputs": true,
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10"
+        },
+        "sort-by-number": true
+    },
+
+    "pulseaudio#output": {
+        "format":       " {volume}%",
+        "format-muted": "",
+        "on-click":     "pavucontrol"
+    },
+
+    "pulseaudio#input": {
+        "format-source":       " {volume}%",
+        "format-source-muted": "<<",
+        "format":              "{format_source}",
+        "on-click":            "pavucontrol"
+    },
+
+    "network": {
+        "interval": 1,
+        "format-wifi":                 "",
+        "format-ethernet":             "",
+        "format-disconnected":         "Disconnected 󱘖",
+        "tooltip-format-wifi":         "Wifi:\n\n {essid} |  {signalStrength}%\n󰇚 {bandwidthDownBytes} | 󰕒 {bandwidthUpBytes}",
+        "tooltip-format-ethernet":     "Ethernet:\n\n󰇚 {bandwidthDownBytes} | 󰕒 {bandwidthUpBytes}",
+        "tooltip-format-disconnected": "Disconnected",
+        "max-length": 25
+    },
+
+    "clock": {
+        "interval": 1,
+        "format": "{:%H:%M:%S}",
+        "tooltip": true,
+        "tooltip-format": "{:%d/%m/%Y}"
+    }
+}
