@@ -18,7 +18,7 @@
 
 /* Bar */
 window#waybar {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.10);
 }
 
 window#waybar > box {
@@ -35,33 +35,53 @@ tooltip label {
 }
 
 /* Modules */
-#custom-power:hover, 
-#workspaces button:hover {
-    background-color: @gray4;
-}
-
-#custom-power, 
-#pulseaudio.output, 
-#pulseaudio.input, 
-#network, 
+/* Text Color */
+#custom-power,
+#pulseaudio.output,
+#pulseaudio.input,
+#tray,
+#custom-applauncher,
+#network,
+#language,
+#custom-notification,
 #clock {
     color: @text;
+    
 }
 
-#custom-power, 
+/* Text Shadow */
+#custom-power,
+#tray,
+#custom-applauncher,
+#network,
+#language,
+#custom-notification,
+#clock {
+    text-shadow: 0px 1px 3px @gray6;
+}
+
+/* 1/1 Aspect Ratio */
+#custom-power,
 #workspaces button,
 #custom-applauncher,
-#network {
+#network,
+#language,
+#custom-notification {
     min-width: calc(45px - (8px * 2));
+}
+
+/* Power */
+#custom-power {
+    font-size: 20px;
 }
 
 /* Workspaces */
 #workspaces button {
-    color: @gray
+    color: @text
 }
 
 #workspaces button.visible {
-    color: @text;
+    color: @cyan;
 }
 
 #workspaces button.active {
@@ -69,18 +89,25 @@ tooltip label {
 }
 
 /* Audio */
+#pulseaudio.output,
+#pulseaudio.input {
+    border-radius: 5px;
+    min-width: 75px;
+}
+
 #pulseaudio.output {
     background-color: @green;
-    border-radius: 5px;
-
-    min-width: 75px;
 }
 
 #pulseaudio.input {
     background-color: @orange;
-    border-radius: 5px;
+}
 
-    min-width: 75px;
+/* Tray */
+#tray {
+    background-color: rgba(0, 0, 0, 0.10);
+    border-radius: 5px;
+    padding: 0 15px;
 }
 
 /* Network */

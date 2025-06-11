@@ -4,8 +4,8 @@
 apply_wallpaper() {
     local WALLPAPER="$1"
 
-    if hyprctl hyprpaper reload ,"$WALLPAPER" > /dev/null; then
-        printf "✅ Applied: '%s'\n" "$WALLPAPER"
+    if hyprctl hyprpaper wallpaper ,"$WALLPAPER" > /dev/null; then
+        printf "✅ Applied wallpaper: '%s'\n" "$WALLPAPER"
     else
         printf "❌ Failed to apply wallpaper(must be a png): '%s', check errors above\n" "$WALLPAPER"
     fi
@@ -118,6 +118,20 @@ set_gtk_theme() {
     fi
 }
 
+set_spicetify_theme() {
+    if spicetify config current_theme "$SPICETIFY_THEME" > /dev/null; then
+        printf "✅ Set Spicetify theme to: %s\n" "$SPICETIFY_THEME"
+    else
+        printf "❌ Failed to set Spicetify theme to: %s\n" "$SPICETIFY_THEME"
+    fi
+
+    if spicetify apply > /dev/null; then
+        printf "✅ Applied Spicetify theme: %s\n" "$SPICETIFY_THEME"
+    else
+        printf "❌ Failed to apply Spicetify theme: %s\n" "$SPICETIFY_THEME"
+    fi
+}
+
 start_app() {
     local APP="$1"
 
@@ -169,7 +183,7 @@ fi
 # Ask user what theme to apply
 while true; do
     printf "Choose a theme:\n\n"
-    printf "1 - Apple\n"
+    printf "1 - Apple (based on iOS/MacOS colors)\n"
     printf "2 - Catppuccin Mocha\n"
     printf "3 - Gruvbox Dark\n"
     echo
@@ -180,7 +194,7 @@ while true; do
     case "$choice" in
         1|one)
             # GTK icon theme
-            GTK_ICON_THEME="WhiteSur"
+            GTK_ICON_THEME="Adwaita"
 
             # GTK theme name
             GTK_THEME="WhiteSur-Dark"

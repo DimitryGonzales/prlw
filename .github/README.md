@@ -8,6 +8,7 @@
 
 ## Required Dependencies (for full functionality)
 
+- [Apple Fonts](https://developer.apple.com/fonts/)
 - [Chafa](https://github.com/hpjansson/chafa)
 - [Cliphist](https://github.com/sentriz/cliphist)
 - [Discord](https://github.com/discord)
@@ -53,13 +54,13 @@ sudo pacman -S --needed chafa cliphist discord ttf-font-awesome otf-font-awesome
 > ℹ️ **You can use either yay or paru depending on which AUR helper you have installed.**
 
 ```bash
-yay -S --needed catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my-zsh-git rofi-power-menu spicetify-cli spicetify-marketplace-bin vencord-hook vesktop-bin whitesur-gtk-theme whitesur-icon-theme
+yay -S --needed apple-fonts catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my-zsh-git rofi-power-menu spicetify-cli spicetify-marketplace-bin vencord-hook vesktop-bin whitesur-gtk-theme whitesur-icon-theme
 ```
 
 _or_
 
 ```bash
-paru -S --needed catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my-zsh-git rofi-power-menu spicetify-cli spicetify-marketplace-bin vencord-hook vesktop-bin whitesur-gtk-theme whitesur-icon-theme
+paru -S --needed apple-fonts catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my-zsh-git rofi-power-menu spicetify-cli spicetify-marketplace-bin vencord-hook vesktop-bin whitesur-gtk-theme whitesur-icon-theme
 ```
 
 ---

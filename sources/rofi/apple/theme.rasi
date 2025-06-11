@@ -1,0 +1,110 @@
+/**
+ * Catppuccin Mocha theme
+ * Color palette copied from https://catppuccin.com/palette
+ * https://github.com/hiimsergey/rofi-catppuccin
+ */
+
+* {
+    base: #1c1c1e;
+    surface0: #2c2c2e;
+    overlay0: #3a3a3c;
+    text: #ffffff;
+
+    purple: #bf5af2;
+    red: #ff453a;
+    orange: #ff9f0a;
+    green: #30d158;
+    blue: #0a84ff;
+
+    background-color: @base;
+}
+
+window {
+    height: 500;
+    width: 750;
+
+    border: 1;
+    border-radius: 10;
+    border-color: #8e8e93;
+}
+
+mainbox {
+    spacing: 0;
+    children: [inputbar, message, listview];
+}
+
+inputbar {
+    color: @text;
+    padding: 14;
+    background-color: @base;
+}
+
+message {
+    padding: 10;
+    background-color: @overlay0;
+}
+
+listview {
+    padding: 8;
+    border-radius: 2;
+    border: 2;
+    border-color: @base;
+    background-color: @base;
+    dynamic: false;
+}
+
+textbox {
+    text-color: @text;
+    background-color: inherit;
+}
+
+error-message {
+    border: 20 20 20 20;
+}
+
+entry, prompt, case-indicator {
+    text-color: inherit;
+}
+
+prompt {
+    margin: 0 10 0 0;
+}
+
+element {
+    padding: 8;
+    vertical-align: 0.5;
+    border-radius: 2;
+    background-color: @surface0;
+}
+
+element.selected.normal {
+    background-color: @overlay0;
+}
+
+element.normal.active, element.alternate.active {
+    background-color: @orange;
+}
+
+element.selected.active {
+    background-color: @green;
+}
+
+element.normal.urgent, element.alternate.urgent {
+    background-color: @red;
+}
+
+element.selected.urgent {
+    background-color: @purple;
+}
+
+element-text, element-icon {
+    size: 40;
+    margin: 0 10 0 0;
+    vertical-align: 0.5;
+    background-color: inherit;
+    text-color: @text;
+}
+
+element-text .active, element-text .urgent {
+    text-color: @base;
+}

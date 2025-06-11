@@ -14,13 +14,16 @@
     "modules-right": [
         "pulseaudio#output",
         "pulseaudio#input",
+        "tray",
         "custom/applauncher",
         "network",
+        "hyprland/language",
+        "custom/notification",
         "clock"
     ],
 
     "custom/power": {
-        "format" :  "⏻",
+        "format" :  "",
         "on-click": "rofi -show menu -modi 'menu:rofi-power-menu --choices=shutdown/reboot'",
         "tooltip": false
     },
@@ -57,6 +60,11 @@
         "on-click":            "pavucontrol"
     },
 
+    "tray": {
+        "icon-size": 20,
+        "spacing": 10
+    },
+
     "custom/applauncher": {
         "format": "",
         "on-click": "pgrep rofi > /dev/null 2>&1 && killall rofi || rofi -show drun",
@@ -72,6 +80,31 @@
         "tooltip-format-ethernet":     "Ethernet:\n\n󰇚 {bandwidthDownBytes} | 󰕒 {bandwidthUpBytes}",
         "tooltip-format-disconnected": "Disconnected",
         "max-length": 25
+    },
+
+    "hyprland/language": {
+        "format": "{short}"
+    },
+
+    "custom/notification": {
+        "tooltip": false,
+        "format": "{icon}",
+        "format-icons": {
+            "notification": "<span foreground='#a6e3a1'></span>",
+            "none": "",
+            "dnd-notification": "<span foreground='#f38ba8'></span>",
+            "dnd-none": "",
+            "inhibited-notification": "<span foreground='#a6e3a1'></span>",
+            "inhibited-none": "",
+            "dnd-inhibited-notification": "<span foreground='#f38ba8'></span>",
+            "dnd-inhibited-none": ""
+        },
+        "return-type": "json",
+        "exec-if": "which swaync-client",
+        "exec": "swaync-client -swb",
+        "on-click": "swaync-client -t -sw",
+        "on-click-right": "swaync-client -d -sw",
+        "escape": true
     },
 
     "clock": {
