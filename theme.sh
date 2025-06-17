@@ -183,9 +183,9 @@ fi
 # Ask user what theme to apply
 while true; do
     printf "Choose a theme:\n\n"
-    printf "1 - Apple (based on iOS/MacOS colors)\n"
-    printf "2 - Catppuccin Mocha\n"
-    printf "3 - Gruvbox Dark\n"
+    printf "1 - Catppuccin Mocha\n"
+    printf "2 - Gruvbox Dark\n"
+    printf "3 - Minimalistic\n"
     echo
 
     read -n 1 -r choice
@@ -193,20 +193,6 @@ while true; do
 
     case "$choice" in
         1|one)
-            # GTK icon theme
-            GTK_ICON_THEME="Adwaita"
-
-            # GTK theme name
-            GTK_THEME="WhiteSur-Dark"
-
-            # Theme name
-            THEME="apple"
-
-            # VSCode theme name
-            VSCODE_THEME="MacOS Modern Dark - Xcode Default"
-            break
-            ;;
-        2|two)
             # GTK icon theme
             GTK_ICON_THEME="Adwaita"
 
@@ -220,7 +206,7 @@ while true; do
             VSCODE_THEME="Catppuccin Mocha"
             break
             ;;
-        3|three)
+        2|two)
             # GTK icon theme
             GTK_ICON_THEME="Adwaita"
 
@@ -232,6 +218,20 @@ while true; do
 
             # VSCode theme name
             VSCODE_THEME="Gruvbox Dark Hard"
+            break
+            ;;
+        3|three)
+            # GTK icon theme
+            GTK_ICON_THEME="Adwaita"
+
+            # GTK theme name
+            GTK_THEME="Adwaita"
+
+            # Theme name
+            THEME="minimalistic"
+
+            # VSCode theme name
+            VSCODE_THEME="Github Dark"
             break
             ;;
         *)

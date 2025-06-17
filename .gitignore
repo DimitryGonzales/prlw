@@ -124,20 +124,17 @@
 # Bash
 !sources/bash/
 
-!sources/bash/apple/
-!sources/bash/apple/.bashrc
-
 !sources/bash/catppuccin-mocha-lavender/
 !sources/bash/catppuccin-mocha-lavender/.bashrc
 
 !sources/bash/gruvbox-dark/
 !sources/bash/gruvbox-dark/.bashrc
 
+!sources/bash/minimalistic/
+!sources/bash/minimalistic/.bashrc
+
 # Foot
 !sources/foot/
-
-!sources/foot/apple/
-!sources/foot/apple/foot.ini
 
 !sources/foot/catppuccin-mocha-lavender/
 !sources/foot/catppuccin-mocha-lavender/foot.ini
@@ -145,12 +142,11 @@
 !sources/foot/gruvbox-dark/
 !sources/foot/gruvbox-dark/foot.ini
 
+!sources/foot/minimalistic/
+!sources/foot/minimalistic/foot.ini
 
 # GTK
 !sources/gtk/
-
-!sources/gtk/apple/
-!sources/gtk/apple/settings.ini
 
 !sources/gtk/catppuccin-mocha-lavender/
 !sources/gtk/catppuccin-mocha-lavender/settings.ini
@@ -158,13 +154,11 @@
 !sources/gtk/gruvbox-dark/
 !sources/gtk/gruvbox-dark/settings.ini
 
+!sources/gtk/minimalistic/
+!sources/gtk/minimalistic/settings.ini
+
 # Hyprland
 !sources/hyprland/
-
-!sources/hyprland/apple/
-!sources/hyprland/apple/hyprlock.conf
-!sources/hyprland/apple/hyprpaper.conf
-!sources/hyprland/apple/style.conf
 
 !sources/hyprland/catppuccin-mocha-lavender/
 !sources/hyprland/catppuccin-mocha-lavender/hyprlock.conf
@@ -176,12 +170,13 @@
 !sources/hyprland/gruvbox-dark/hyprpaper.conf
 !sources/hyprland/gruvbox-dark/style.conf
 
+!sources/hyprland/minimalistic/
+!sources/hyprland/minimalistic/hyprlock.conf
+!sources/hyprland/minimalistic/hyprpaper.conf
+!sources/hyprland/minimalistic/style.conf
+
 # Kitty
 !sources/kitty/
-
-!sources/kitty/apple/
-!sources/kitty/apple/kitty.conf
-!sources/kitty/apple/palette.conf
 
 !sources/kitty/catppuccin-mocha-lavender/
 !sources/kitty/catppuccin-mocha-lavender/kitty.conf
@@ -191,12 +186,12 @@
 !sources/kitty/gruvbox-dark/kitty.conf
 !sources/kitty/gruvbox-dark/palette.conf
 
+!sources/kitty/minimalistic/
+!sources/kitty/minimalistic/kitty.conf
+!sources/kitty/minimalistic/palette.conf
+
 # Neofetch
 !sources/neofetch/
-
-!sources/neofetch/apple/
-!sources/neofetch/apple/neofetch.png
-!sources/neofetch/apple/config.conf
 
 !sources/neofetch/catppuccin-mocha-lavender/
 !sources/neofetch/catppuccin-mocha-lavender/neofetch.png
@@ -206,12 +201,12 @@
 !sources/neofetch/gruvbox-dark/neofetch.png
 !sources/neofetch/gruvbox-dark/config.conf
 
+!sources/neofetch/minimalistic/
+!sources/neofetch/minimalistic/neofetch.png
+!sources/neofetch/minimalistic/config.conf
+
 # Rofi
 !sources/rofi/
-
-!sources/rofi/apple/
-!sources/rofi/apple/config.rasi
-!sources/rofi/apple/theme.rasi
 
 !sources/rofi/catppuccin-mocha-lavender/
 !sources/rofi/catppuccin-mocha-lavender/config.rasi
@@ -221,11 +216,12 @@
 !sources/rofi/gruvbox-dark/config.rasi
 !sources/rofi/gruvbox-dark/theme.rasi
 
+!sources/rofi/minimalistic/
+!sources/rofi/minimalistic/config.rasi
+!sources/rofi/minimalistic/theme.rasi
+
 # SwayNC
 !sources/swaync/
-
-!sources/swaync/apple/
-!sources/swaync/apple/style.css
 
 !sources/swaync/catppuccin-mocha-lavender/
 !sources/swaync/catppuccin-mocha-lavender/style.css
@@ -233,12 +229,11 @@
 !sources/swaync/gruvbox-dark/
 !sources/swaync/gruvbox-dark/style.css
 
+!sources/swaync/minimalistic/
+!sources/swaync/minimalistic/style.css
+
 # Vencord
 !sources/vencord/
-
-!sources/vencord/apple/
-!sources/vencord/apple/themes/
-!sources/vencord/apple/themes/theme.css
 
 !sources/vencord/catppuccin-mocha-lavender/
 !sources/vencord/catppuccin-mocha-lavender/themes/
@@ -248,12 +243,12 @@
 !sources/vencord/gruvbox-dark/themes/
 !sources/vencord/gruvbox-dark/themes/theme.css
 
+!sources/vencord/minimalistic/
+!sources/vencord/minimalistic/themes/
+!sources/vencord/minimalistic/themes/theme.css
+
 # Vesktop
 !sources/vesktop/
-
-!sources/vesktop/apple/
-!sources/vesktop/apple/themes/
-!sources/vesktop/apple/themes/theme.css
 
 !sources/vesktop/catppuccin-mocha-lavender/
 !sources/vesktop/catppuccin-mocha-lavender/themes/
@@ -263,19 +258,18 @@
 !sources/vesktop/gruvbox-dark/themes/
 !sources/vesktop/gruvbox-dark/themes/theme.css
 
+!sources/vesktop/minimalistic/
+!sources/vesktop/minimalistic/themes/
+!sources/vesktop/minimalistic/themes/theme.css
+
 # Wallpaper
 !sources/wallpaper/
-!sources/wallpaper/apple.png
 !sources/wallpaper/catppuccin-mocha-lavender.png
 !sources/wallpaper/gruvbox-dark.png
+!sources/wallpaper/minimalistic.png
 
 # Waybar
 !sources/waybar/
-
-!sources/waybar/apple/
-!sources/waybar/apple/config.jsonc
-!sources/waybar/apple/palette.css
-!sources/waybar/apple/style.css
 
 !sources/waybar/catppuccin-mocha-lavender/
 !sources/waybar/catppuccin-mocha-lavender/config.jsonc
@@ -287,17 +281,22 @@
 !sources/waybar/gruvbox-dark/palette.css
 !sources/waybar/gruvbox-dark/style.css
 
+!sources/waybar/minimalistic/
+!sources/waybar/minimalistic/config.jsonc
+!sources/waybar/minimalistic/palette.css
+!sources/waybar/minimalistic/style.css
+
 # ZSH
 !sources/zsh/
-
-!sources/zsh/apple/
-!sources/zsh/apple/.zshrc
 
 !sources/zsh/catppuccin-mocha-lavender/
 !sources/zsh/catppuccin-mocha-lavender/.zshrc
 
 !sources/zsh/gruvbox-dark/
 !sources/zsh/gruvbox-dark/.zshrc
+
+!sources/zsh/minimalistic/
+!sources/zsh/minimalistic/.zshrc
 
 ## bashrc ##
 !.bashrc
