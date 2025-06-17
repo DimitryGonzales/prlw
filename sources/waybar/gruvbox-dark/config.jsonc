@@ -180,7 +180,7 @@
         },
 
         "memory": {
-            "interval": 30,
+            "interval": 1,
             "format": "<span foreground='#d79921'></span> {used}/{total} GB",
             "tooltip": true,
             "tooltip-format": "Available: {avail} GB"
