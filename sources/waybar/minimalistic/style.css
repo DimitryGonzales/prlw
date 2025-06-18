@@ -1,0 +1,120 @@
+/* Color Palette */
+@import url("palette.css");
+
+/* General */
+* {
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    margin: 0;
+    padding: 0;
+    
+    font-size: 14px;
+    font-family: "JetBrains Mono", "Font Awesome 6 Free";
+    font-weight: bold;
+
+    transition: all 0s;
+}
+
+/* Waybar */
+window#waybar {
+    background-color: transparent;
+}
+
+/* Tooltips */
+tooltip {
+    background-color: @gray5;
+    border: 2px solid @gray3;
+    border-radius: 20px;
+}
+
+tooltip label {
+    padding: 0 10px;
+}
+
+/* Modules (bar order) */
+#memory,
+#network,
+#workspaces,
+#pulseaudio.output,
+#pulseaudio.input,
+#tray,
+#clock,
+#language,
+#custom-notification {
+    background-color: @main;
+    border: 2px solid @main;
+    border-radius: 20px;
+
+    color: @text;
+
+    padding: 0 10px;
+
+    min-width: 20px;
+
+    transition: all 300ms ease;
+}
+
+#memory:hover,
+#network:hover,
+#workspaces:hover,
+#pulseaudio.output:hover,
+#pulseaudio.input:hover,
+#tray:hover,
+#clock:hover,
+#language:hover,
+#custom-notification:hover {
+    background-color: @main2;
+    border-color: @main2;
+}
+
+/* Specific */
+
+/* Workspaces */
+#workspaces {
+    padding: 0;
+}
+
+#workspaces button {
+    border-radius: 20px;
+
+    color: @main;
+    font-weight: bold;
+
+    min-width: 40px;
+}
+
+#workspaces button:hover {
+    background: @main2;
+    color: @main2;
+}
+
+#workspaces button.visible {
+    color: @gray;
+}
+
+#workspaces button.active {
+    color: @text;
+}
+
+
+/* Tray Menu */
+#tray menu {
+    background-color: @gray5;
+    border: 2px solid @gray3;
+    border-radius: 20px;
+
+    padding: 10px;
+}
+
+#tray menu menuitem {
+    border-radius: 20px;
+}
+
+#tray menu menuitem:hover {
+    background-color: @gray3;
+}
+
+#tray menu menuitem:hover label {
+    font-weight: bold;
+}

@@ -231,7 +231,7 @@ while true; do
             THEME="minimalistic"
 
             # VSCode theme name
-            VSCODE_THEME="Github Dark"
+            VSCODE_THEME="GitHub Dark"
             break
             ;;
         *)
