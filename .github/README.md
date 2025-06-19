@@ -146,12 +146,12 @@ hyprctl monitors
 
 <table>
     <tr>
-        <td><img src="./examples/gruvbox-dark/minimalistic-1.png" alt="example-1"></td>
-        <td><img src="./examples/gruvbox-dark/minimalistic-2.png" alt="example-2"></td>
+        <td><img src="./examples/minimalistic/minimalistic-1.png" alt="example-1"></td>
+        <td><img src="./examples/minimalistic/minimalistic-2.png" alt="example-2"></td>
     </tr>
     <tr>
-        <td><img src="./examples/gruvbox-dark/minimalistic-3.png" alt="example-3"></td>
-        <td><img src="./examples/gruvbox-dark/minimalistic-4.png" alt="example-4"></td>
+        <td><img src="./examples/minimalistic/minimalistic-3.png" alt="example-3"></td>
+        <td><img src="./examples/minimalistic/minimalistic-4.png" alt="example-4"></td>
     </tr>
 </table>
 
