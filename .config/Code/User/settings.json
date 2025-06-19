@@ -55,7 +55,7 @@
     "editor.lineHeight": 1.6,
 
     // Theme
-    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.colorTheme": "GitHub Dark",
 
 
     /// Extentions

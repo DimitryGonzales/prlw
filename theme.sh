@@ -119,6 +119,8 @@ set_gtk_theme() {
 }
 
 set_spicetify_theme() {
+    local SPICETIFY_THEME="$1"
+
     if spicetify config current_theme "$SPICETIFY_THEME" > /dev/null; then
         printf "✅ Set Spicetify theme to: %s\n" "$SPICETIFY_THEME"
     else
@@ -199,6 +201,9 @@ while true; do
             # GTK theme
             GTK_THEME="catppuccin-mocha-lavender-standard+default"
 
+            #Spicetify theme
+            SPICETIFY_THEME="marketplace"
+
             # Theme name
             THEME="catppuccin-mocha-lavender"
 
@@ -213,6 +218,9 @@ while true; do
             # GTK theme name
             GTK_THEME="Gruvbox-Yellow-Dark"
 
+            #Spicetify theme
+            SPICETIFY_THEME="marketplace"
+
             # Theme name
             THEME="gruvbox-dark"
 
@@ -226,6 +234,9 @@ while true; do
 
             # GTK theme name
             GTK_THEME="Adwaita"
+
+            #Spicetify theme
+            SPICETIFY_THEME=" "
 
             # Theme name
             THEME="minimalistic"
@@ -349,6 +360,11 @@ printf "• Rofi\n"
 check_directory "$ROFI_DIR"
 copy "$ROFI_CONFIG" "$ROFI_DIR"
 copy "$ROFI_THEME" "$ROFI_DIR"
+echo
+
+# Spicetify
+printf "• Spicetify\n"
+set_spicetify_theme "$SPICETIFY_THEME"
 echo
 
 # SwayNC

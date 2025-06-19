@@ -1,26 +1,26 @@
-@define-color rosewater #f5e0dc;
-@define-color flamingo #f2cdcd;
-@define-color pink #f5c2e7;
-@define-color mauve #cba6f7;
-@define-color red #f38ba8;
-@define-color maroon #eba0ac;
-@define-color peach #fab387;
-@define-color yellow #f9e2af;
-@define-color green #a6e3a1;
-@define-color teal #94e2d5;
-@define-color sky #89dceb;
-@define-color sapphire #74c7ec;
-@define-color blue #89b4fa;
-@define-color lavender #b4befe;
-@define-color text #cdd6f4;
-@define-color subtext1 #bac2de;
-@define-color subtext0 #a6adc8;
-@define-color overlay2 #9399b2;
-@define-color overlay1 #7f849c;
-@define-color overlay0 #6c7086;
-@define-color surface2 #585b70;
-@define-color surface1 #45475a;
-@define-color surface0 #313244;
-@define-color base #1e1e2e;
-@define-color mantle #181825;
-@define-color crust #11111b;
+/* Apple Default(dark) (https://developer.apple.com/design/human-interface-guidelines/color#Specifications) */
+
+@define-color blue #0091ff;
+@define-color brown #b78a66;
+@define-color cyan #3cd3fe;
+@define-color green #30d158;
+@define-color indigo #6b5dff;
+@define-color mint #00dac3;
+@define-color orange #ff9230;
+@define-color pink #ff375f;
+@define-color purple #db34f2;
+@define-color red #ff4245;
+@define-color teal #00d2e0;
+@define-color yellow #ffd600;
+
+@define-color gray #8e8e93;
+@define-color gray2 #636366;
+@define-color gray3 #48484a;
+@define-color gray4 #3a3a3c;
+@define-color gray5 #2c2c2e;
+@define-color gray6 #1c1c1e;
+
+@define-color main rgba(0, 0, 0, 0.1);
+@define-color main2 rgba(0, 0, 0, 0.2);
+@define-color main3 rgba(0, 0, 0, 0.5);
+@define-color text #ffffff;

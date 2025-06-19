@@ -8,16 +8,14 @@
 
 ## Required Dependencies (for full functionality)
 
-- [Apple Fonts](https://developer.apple.com/fonts/)
 - [Chafa](https://github.com/hpjansson/chafa)
 - [Cliphist](https://github.com/sentriz/cliphist)
 - [Discord](https://github.com/discord)
 - [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
 - [Foot](https://codeberg.org/dnkl/foot)
+- [Gnome Themes Extra](https://gitlab.gnome.org/GNOME/gnome-themes-extra)
 - [GTK Catppuccin Theme](https://github.com/catppuccin/gtk)
 - [GTK Gruvbox Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme)
-- [GTK Whitesur Theme](https://github.com/vinceliuice/WhiteSur-gtk-theme)
-- [GTK Whitesur Icon Theme](https://github.com/vinceliuice/WhiteSur-icon-theme)
 - [Hyprland](https://github.com/hyprwm/Hyprland)
 - [Hyprlock](https://github.com/hyprwm/hyprlock)
 - [Hyprpicker](https://github.com/hyprwm/hyprpicker)
@@ -46,7 +44,7 @@
 #### Official Repositories (using `pacman`):
 
 ```bash
-sudo pacman -S --needed chafa cliphist discord ttf-font-awesome otf-font-awesome foot hyprland hyprlock hyprpicker ttf-jetbrains-mono kitty mission-center neofetch nerd-fonts nwg-look rofi rofi-emoji swaync thunar waybar zsh
+sudo pacman -S --needed chafa cliphist discord ttf-font-awesome otf-font-awesome foot gnome-themes-extra hyprland hyprlock hyprpicker ttf-jetbrains-mono kitty mission-center neofetch nerd-fonts nwg-look rofi rofi-emoji swaync thunar waybar zsh
 ```
 
 #### AUR (using `yay` or `paru`):
@@ -54,13 +52,13 @@ sudo pacman -S --needed chafa cliphist discord ttf-font-awesome otf-font-awesome
 > ℹ️ **You can use either yay or paru depending on which AUR helper you have installed.**
 
 ```bash
-yay -S --needed apple-fonts catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my-zsh-git rofi-power-menu spicetify-cli spicetify-marketplace-bin vencord-hook vesktop-bin whitesur-gtk-theme whitesur-icon-theme
+yay -S --needed catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my-zsh-git rofi-power-menu spicetify-cli spicetify-marketplace-bin vencord-hook vesktop-bin
 ```
 
 _or_
 
 ```bash
-paru -S --needed apple-fonts catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my-zsh-git rofi-power-menu spicetify-cli spicetify-marketplace-bin vencord-hook vesktop-bin whitesur-gtk-theme whitesur-icon-theme
+paru -S --needed catppuccin-gtk-theme-mocha gruvbox-gtk-theme-git hyprshot oh-my-zsh-git rofi-power-menu spicetify-cli spicetify-marketplace-bin vencord-hook vesktop-bin
 ```
 
 ---
@@ -141,6 +139,19 @@ hyprctl monitors
     <tr>
         <td><img src="./examples/gruvbox-dark/gruvbox-dark-3.png" alt="example-3"></td>
         <td><img src="./examples/gruvbox-dark/gruvbox-dark-4.png" alt="example-4"></td>
+    </tr>
+</table>
+
+## Minimalistic
+
+<table>
+    <tr>
+        <td><img src="./examples/gruvbox-dark/minimalistic-1.png" alt="example-1"></td>
+        <td><img src="./examples/gruvbox-dark/minimalistic-2.png" alt="example-2"></td>
+    </tr>
+    <tr>
+        <td><img src="./examples/gruvbox-dark/minimalistic-3.png" alt="example-3"></td>
+        <td><img src="./examples/gruvbox-dark/minimalistic-4.png" alt="example-4"></td>
     </tr>
 </table>
 

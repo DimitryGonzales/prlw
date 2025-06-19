@@ -153,12 +153,12 @@ slider {
 .control-center .notification-row .notification-background .notification > *:last-child > * .notification-action {
   border-radius: 20px;
   color: #ffffff;
-  background-color: #11111b;
+  background-color: #48484a;
   margin: 7px;
 }
 
 .control-center .notification-row .notification-background .notification > *:last-child > * .notification-action:hover {
-  background-color: #2c2c2e;
+  background-color: #636366;
   color: #ffffff;
 }
 
