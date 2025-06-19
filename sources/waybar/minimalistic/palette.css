@@ -20,7 +20,7 @@
 @define-color gray5 #2c2c2e;
 @define-color gray6 #1c1c1e;
 
-@define-color main rgba(0, 0, 0, 0.25);
-@define-color main2 rgba(0, 0, 0, 0.50);
-@define-color main3 rgba(0, 0, 0, 0.75);
+@define-color main rgba(0, 0, 0, 0.1);
+@define-color main2 rgba(0, 0, 0, 0.2);
+@define-color main3 rgba(0, 0, 0, 0.5);
 @define-color text #ffffff;

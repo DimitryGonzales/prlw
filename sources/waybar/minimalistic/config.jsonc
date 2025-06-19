@@ -1,11 +1,7 @@
 {
-    "height": 40,
-
     "margin-left": 15,
     "margin-right": 15,
     "margin-top": 15,
-
-    "position": "top",
     
     "spacing": 10,
 
@@ -19,8 +15,7 @@
     ],
 
     "modules-right": [
-        "pulseaudio#output",
-        "pulseaudio#input",
+        "pulseaudio",
         "tray",
         "clock",
         "hyprland/language",
@@ -72,36 +67,17 @@
         "sort-by-number": true
     },
 
-    "pulseaudio#output": {
-        "format":                     "{icon} {volume}%",
-        "format-muted":               "",
-        "format-icons": {
-            "default":                ["", "", ""]
-        },
+    "pulseaudio": {
+        "format": " {volume}% | {format_source}",
+        "format-muted": " | {format_source}",
 
-        "max-volume":                 200,
+        "format-source": " {volume}%",
+        "format-source-muted": "",
 
-        "scroll-step":                5,
-        "smooth-scrolling-threshold": 1,
-        "on-scroll-down":             "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-",
-        "on-scroll-up":               "wpctl set-volume -l 2.0 @DEFAULT_AUDIO_SINK@ 5%+",
+        "format-bluetooth": "{volume}% | {format_source}",
+        "format-bluetooth-muted": " | {format_source}",
 
-        "on-click":                   "pavucontrol"
-    },
-
-    "pulseaudio#input": {
-        "format-source":              " {volume}%",
-        "format-source-muted":        "",
-        "format":                     "{format_source}",
-
-        "max-volume":                 100,
-
-        "scroll-step":                5,
-        "smooth-scrolling-threshold": 1,
-        "on-scroll-down":             "wpctl set-volume @DEFAULT_AUDIO_SOURCE@ 5%-",
-        "on-scroll-up":               "wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SOURCE@ 5%+",
-
-        "on-click":                   "pavucontrol"
+        "on-click": "pavucontrol"
     },
 
     "tray": {
@@ -143,7 +119,7 @@
         "format":                         "{icon}",
         "format-icons": {
             "notification":               "<span foreground='#0091ff'></span>",
-            "none":                       "",
+            "none":                       "",
 
             "dnd-notification":           "<span foreground='#ff4245'></span>",
             "dnd-none":                   "",
