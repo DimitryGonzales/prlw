@@ -36,10 +36,10 @@
 
         "format":                      "{ifname}",
 
-        "format-wifi":                 " {bandwidthDownBytes} | {bandwidthUpBytes}",
+        "format-wifi":                 "  {bandwidthDownBytes} |  {bandwidthUpBytes}",
         "tooltip-format-wifi":         "Wi-Fi:\n\nSSID: {essid}\nFrequency: {frequency}\nStrength: {signalStrength}\n\nIP: {ipaddr}\nGateway: {gwaddr}\nSubnetmask: {netmask}",
 
-        "format-ethernet":             " {bandwidthDownBytes} | {bandwidthUpBytes}",
+        "format-ethernet":             "  {bandwidthDownBytes} |  {bandwidthUpBytes}",
         "tooltip-format-ethernet":     "Ethernet:\n\nIP: {ipaddr}\nGateway: {gwaddr}\nSubnetmask: {netmask}",
 
         "format-disconnected":         "",
